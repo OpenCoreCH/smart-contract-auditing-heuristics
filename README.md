@@ -1,6 +1,6 @@
 # Smart Contract Auditing Heuristics
 
-This repository contains some heuristics that can be used when auditing smart contracts to get ideas for vulnerabilities/common pitfalls. The goal of this repository is not to list concrete vulnerabilities (there are already a lot of great resources for that, e.g. prior audit reports or the [SWC Registry](https://swcregistry.io/)), but rather general heuristics for pitfalls that I encounter often during audits and that can be applied to many projects.
+This repository contains some heuristics that can be used when auditing smart contracts to get ideas for vulnerabilities/common pitfalls. The goal of this repository is not to list concrete vulnerabilities (there are already a lot of great resources for that, e.g. [prior audit reports](https://github.com/0xNazgul/Blockchain-Security-Audit-List) or the [SWC Registry](https://swcregistry.io/)), but rather general heuristics for pitfalls that I encounter often during audits and that can be applied to many projects.
 
 Note: These are general heuristics/common pitfalls and cannot be blindly applied to a codebase to find vulnerabilities. You should always understand a codebase well to judge if something is truly a vulnerability in this particular context. However, these heuristics can help to get ideas for things to explore while you are auditing the code.
 
