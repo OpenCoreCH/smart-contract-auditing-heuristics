@@ -25,7 +25,7 @@ Ethereum Improvement Proposals and in general standards (like RFCs) often have v
 ## Behavior when src == dst
 In a lot of smart contracts, there are functions where you have to specify a source (or sender) and a destination (or recipient). Sometimes, the programmer did not think about what happens when these (user-specified) parameters are equal, which can result in undesired behavior. For instance, the balance of the source and destination may be cached in the beginning, in which case you can inflate your balance by specifying yourself as the source and the destination.
 
-## Detection of unitialized state
+## Detection of uninitialized state
 It is very common to check if a variable is equal to the default value (0, `address(0)`, empty list, empty string, ...) when checking if it is already initialized. However, these values may also be valid values for this variable. This can result in situations where it is possible to trigger the initialization logic multiple times, which can have negative side effects.
 
 ## Assumption that the contract balance is equal to the deposits
